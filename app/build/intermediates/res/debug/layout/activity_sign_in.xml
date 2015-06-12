@@ -1,0 +1,24 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <!--<ImageView -->
+    <!--android:layout_centerInParent="true"-->
+    <!--android:layout_height="wrap_content"-->
+    <!--android:layout_width="wrap_content"-->
+    <!--android:id="@+id/imageview"-->
+    <!--/>-->
+
+    <TextView
+        android:visibility="gone"
+        android:layout_gravity="center"
+        android:id="@+id/textview"
+        android:text="签到成功"
+        android:textSize="36sp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+
+</LinearLayout>
+<!-- From: file:/Users/xing/StudioProjects/SignInSystem/app/src/main/res/layout/activity_sign_in.xml -->

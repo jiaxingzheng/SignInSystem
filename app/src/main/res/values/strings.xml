@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">SignInSystem</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_wait">WaitActivity</string>
+    <string name="title_activity_sign_in">SignInActivity</string>
+    <string name="title_activity_alert_dialog">AlertDialog</string>
+    <string name="prompt">请输入您的姓名</string>
+        <string name="ok">确定</string>
+    <string name="cancel">取消</string>
+    <string name="title_activity_show_big_picture">ShowBigPictureActivity</string>
+   
+
+</resources>

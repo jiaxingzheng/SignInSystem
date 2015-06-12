@@ -1,0 +1,40 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    
+    <LinearLayout 
+  		android:layout_height="fill_parent"
+        android:layout_width="fill_parent"
+        android:gravity="center"
+        android:layout_weight="1">
+        <Button
+        android:onClick="onClick"
+        android:id="@+id/open"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:text="开启签到" />
+        
+    </LinearLayout>
+    
+
+    <LinearLayout 
+      	android:layout_height="fill_parent"
+        android:layout_width="fill_parent"
+        android:gravity="center"
+        android:layout_weight="1">
+        
+        <Button
+        android:onClick="onClick"
+        android:id="@+id/sign_in"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:text="签到" />
+    </LinearLayout>
+    
+
+</LinearLayout>
+<!-- From: file:/Users/xing/StudioProjects/SignInSystem/app/src/main/res/layout/activity_main.xml -->
